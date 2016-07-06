@@ -4042,12 +4042,12 @@ Pogo pins- HW-11044</description>
 <instance part="IC1" gate="D" x="58.42" y="35.56" rot="MR180"/>
 <instance part="IC2" gate="A" x="15.24" y="2.54" rot="MR180"/>
 <instance part="IC2" gate="B" x="101.6" y="38.1" rot="MR180"/>
-<instance part="IC2" gate="C" x="71.12" y="0" rot="MR180"/>
+<instance part="IC2" gate="C" x="71.12" y="-15.24" rot="MR180"/>
 <instance part="IC2" gate="D" x="215.9" y="-7.62"/>
 <instance part="GND1" gate="1" x="27.94" y="63.5"/>
-<instance part="GND2" gate="1" x="30.48" y="73.66" rot="R90"/>
-<instance part="GND3" gate="1" x="40.64" y="68.58" rot="R270"/>
-<instance part="GND4" gate="1" x="63.5" y="-7.62"/>
+<instance part="GND2" gate="1" x="33.02" y="71.12"/>
+<instance part="GND3" gate="1" x="40.64" y="66.04"/>
+<instance part="GND4" gate="1" x="63.5" y="-22.86"/>
 <instance part="GND5" gate="1" x="76.2" y="48.26" rot="R180"/>
 <instance part="C1" gate="G$1" x="55.88" y="83.82" rot="R90"/>
 <instance part="C2" gate="G$1" x="55.88" y="91.44" rot="R90"/>
@@ -4056,22 +4056,22 @@ Pogo pins- HW-11044</description>
 <instance part="C5" gate="G$1" x="43.18" y="-12.7" rot="R90"/>
 <instance part="R1" gate="G$1" x="-35.56" y="38.1"/>
 <instance part="R2" gate="G$1" x="-35.56" y="10.16"/>
-<instance part="R3" gate="G$1" x="-35.56" y="-20.32"/>
-<instance part="R4" gate="G$1" x="15.24" y="-17.78"/>
-<instance part="R5" gate="G$1" x="15.24" y="-10.16"/>
+<instance part="R3" gate="G$1" x="-35.56" y="-30.48"/>
+<instance part="R4" gate="G$1" x="30.48" y="30.48" rot="R90"/>
+<instance part="R5" gate="G$1" x="30.48" y="12.7" rot="R270"/>
 <instance part="R6" gate="G$1" x="15.24" y="15.24"/>
-<instance part="R7" gate="G$1" x="38.1" y="2.54"/>
+<instance part="R7" gate="G$1" x="45.72" y="7.62" rot="R90"/>
 <instance part="R8" gate="G$1" x="38.1" y="38.1"/>
 <instance part="R9" gate="G$1" x="15.24" y="48.26"/>
 <instance part="R10" gate="G$1" x="15.24" y="83.82"/>
-<instance part="R11" gate="G$1" x="99.06" y="73.66" rot="R90"/>
-<instance part="R12" gate="G$1" x="99.06" y="53.34"/>
+<instance part="R11" gate="G$1" x="93.98" y="73.66" rot="R90"/>
+<instance part="R12" gate="G$1" x="106.68" y="55.88"/>
 <instance part="R13" gate="G$1" x="86.36" y="40.64"/>
 <instance part="R15" gate="G$1" x="58.42" y="45.72"/>
 <instance part="R16" gate="G$1" x="58.42" y="50.8"/>
-<instance part="R17" gate="G$1" x="76.2" y="15.24"/>
+<instance part="R17" gate="G$1" x="76.2" y="0"/>
 <instance part="R14" gate="G$1" x="83.82" y="35.56"/>
-<instance part="R18" gate="R?" x="-2.54" y="20.32" rot="R90"/>
+<instance part="R18" gate="R?" x="2.54" y="20.32" rot="R90"/>
 <instance part="IC1" gate="P" x="129.54" y="-2.54"/>
 <instance part="IC2" gate="P" x="134.62" y="-2.54"/>
 <instance part="JP1" gate="A" x="132.08" y="20.32" rot="R90"/>
@@ -4083,7 +4083,7 @@ Pogo pins- HW-11044</description>
 <instance part="D2" gate="1" x="-35.56" y="-63.5"/>
 <instance part="BAT1" gate="G$1" x="114.3" y="-40.64" rot="R270"/>
 <instance part="BAT2" gate="G$1" x="114.3" y="-60.96" rot="R270"/>
-<instance part="Q1" gate="G$1" x="-60.96" y="-71.12" rot="R90"/>
+<instance part="Q1" gate="G$1" x="-55.88" y="-71.12" rot="R90"/>
 <instance part="R19" gate="G$1" x="-58.42" y="-88.9" rot="R90"/>
 <instance part="GND6" gate="1" x="-58.42" y="-104.14"/>
 <instance part="JP5" gate="G$1" x="83.82" y="-63.5"/>
@@ -4123,8 +4123,8 @@ Pogo pins- HW-11044</description>
 <junction x="48.26" y="88.9"/>
 <wire x1="48.26" y1="88.9" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="99.06" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="99.06" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="88.9" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <wire x1="45.72" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
@@ -4139,7 +4139,7 @@ Pogo pins- HW-11044</description>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="25.4" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="73.66" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
@@ -4156,7 +4156,7 @@ Pogo pins- HW-11044</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="IC2" gate="C" pin="+IN"/>
-<wire x1="63.5" y1="-5.08" x2="63.5" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-20.32" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="2"/>
@@ -4192,14 +4192,13 @@ Pogo pins- HW-11044</description>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="IC1" gate="B" pin="+IN"/>
-<wire x1="43.18" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUTECG" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="53.34" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="55.88" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="B" pin="OUT"/>
 <wire x1="111.76" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
@@ -4241,8 +4240,7 @@ Pogo pins- HW-11044</description>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="2.54" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="2.54" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="12.7" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="+IN"/>
 <wire x1="45.72" y1="33.02" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
@@ -4255,13 +4253,14 @@ Pogo pins- HW-11044</description>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="2.54" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="15.24" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 <junction x="25.4" y="2.54"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="-10.16" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-10.16" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="7.62" x2="30.48" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<junction x="30.48" y="2.54"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -4277,8 +4276,7 @@ Pogo pins- HW-11044</description>
 <wire x1="25.4" y1="48.26" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <junction x="25.4" y="38.1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="-17.78" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-17.78" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="35.56" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 <junction x="30.48" y="38.1"/>
 </segment>
 </net>
@@ -4288,8 +4286,8 @@ Pogo pins- HW-11044</description>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R18" gate="R?" pin="CCW"/>
-<wire x1="-2.54" y1="15.24" x2="-2.54" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="-IN"/>
 <wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
 <junction x="5.08" y="5.08"/>
@@ -4298,43 +4296,40 @@ Pogo pins- HW-11044</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-15.24" x2="35.56" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-15.24" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="17.78" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="35.56" y1="-12.7" x2="40.64" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-15.24" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="7.62" y="-15.24"/>
+<wire x1="35.56" y1="20.32" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
+<junction x="35.56" y="20.32"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="-17.78" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="20.32" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<junction x="30.48" y="20.32"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="58.42" y1="2.54" x2="50.8" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="2.54" x2="50.8" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-12.7" x2="48.26" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="-"/>
-<wire x1="50.8" y1="-12.7" x2="48.26" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="2.54" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-12.7" x2="58.42" y2="0" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="15.24" x2="71.12" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="0" x2="71.12" y2="0" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="C" pin="-IN"/>
-<wire x1="58.42" y1="2.54" x2="63.5" y2="2.54" width="0.1524" layer="91"/>
-<junction x="58.42" y="2.54"/>
+<wire x1="58.42" y1="-12.7" x2="63.5" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="58.42" y="-12.7"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="15.24" x2="86.36" y2="0" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="0" x2="86.36" y2="0" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="0" x2="86.36" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="C" pin="OUT"/>
-<wire x1="86.36" y1="0" x2="78.74" y2="0" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-15.24" x2="78.74" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-30.48" y1="-20.32" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-20.32" x2="86.36" y2="0" width="0.1524" layer="91"/>
-<junction x="86.36" y="0"/>
+<wire x1="-30.48" y1="-30.48" x2="86.36" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-30.48" x2="86.36" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="86.36" y="-15.24"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -4385,11 +4380,9 @@ Pogo pins- HW-11044</description>
 <wire x1="91.44" y1="40.64" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <junction x="91.44" y="40.64"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="68.58" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="63.5" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="55.88" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="68.58" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <junction x="93.98" y="55.88"/>
 </segment>
@@ -4425,7 +4418,7 @@ Pogo pins- HW-11044</description>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="-66.04" y1="-71.12" x2="-83.82" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-71.12" x2="-83.82" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-83.82" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -4467,31 +4460,34 @@ Pogo pins- HW-11044</description>
 <label x="137.16" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="(-)" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-40.64" y1="38.1" x2="-53.34" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="38.1" x2="-53.34" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="3"/>
 <wire x1="-53.34" y1="10.16" x2="-66.04" y2="10.16" width="0.1524" layer="91"/>
+<label x="-60.96" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="(+)" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
 <wire x1="-66.04" y1="7.62" x2="-45.72" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="7.62" x2="-45.72" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="10.16" x2="-40.64" y2="10.16" width="0.1524" layer="91"/>
+<label x="-60.96" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="(REF)" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="-20.32" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-20.32" x2="-53.34" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-30.48" x2="-53.34" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-30.48" x2="-53.34" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="-53.34" y1="5.08" x2="-66.04" y2="5.08" width="0.1524" layer="91"/>
+<label x="-60.96" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SEROUT" class="0">
@@ -4567,7 +4563,7 @@ Pogo pins- HW-11044</description>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="-58.42" y1="-83.82" x2="-58.42" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="-81.28" x2="-63.5" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-81.28" x2="-58.42" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-81.28" x2="-58.42" y2="-81.28" width="0.1524" layer="91"/>
 <junction x="-58.42" y="-81.28"/>
 <wire x1="-48.26" y1="-81.28" x2="-48.26" y2="-78.74" width="0.1524" layer="91"/>
@@ -4582,7 +4578,6 @@ Pogo pins- HW-11044</description>
 <wire x1="-38.1" y1="-63.5" x2="-50.8" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-63.5" x2="-50.8" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="-50.8" y1="-71.12" x2="-55.88" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -4619,18 +4614,17 @@ Pogo pins- HW-11044</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R18" gate="R?" pin="CW"/>
-<wire x1="-2.54" y1="27.94" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="27.94" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R18" gate="R?" pin="WIPER"/>
-<wire x1="-7.62" y1="20.32" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="20.32" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="48.26" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="48.26" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="C" pin="-IN"/>
 <wire x1="2.54" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="27.94" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="27.94" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
-<junction x="-2.54" y="27.94"/>
+<junction x="2.54" y="27.94"/>
 <junction x="2.54" y="38.1"/>
 </segment>
 </net>
